@@ -33,8 +33,8 @@ var LocalStorageStore = function(successCallback, errorCallback) {
     }
 
     var employees = [
-            {"id": 1, "firstName": "Richard", "lastName": "Lin", "title":"mastermind", "managerId": 0, "city":"inception", "cellPhone":"999", "officePhone":"999", "email":"sup.com"},
-            {"id": 2, "firstName": "Abhi", "lastName": "Kumar", "title":"silent but deadly", "managerId": 1, "city":"east", "cellPhone":"222", "officePhone":"222", "email":"why.com"},
+            {"id": 1, "firstName": "Richard", "lastName": "Lin", "title":"mastermind", "managerId": 0, "city":"inception", "cellPhone":"9999999999", "officePhone":"9999999999", "email":"sup@a.com"},
+            {"id": 2, "firstName": "Abhi", "lastName": "Kumar", "title":"silent but deadly", "managerId": 1, "city":"east", "cellPhone":"2222222222", "officePhone":"2222222222", "email":"why@a.com"},
             {"id": 3, "firstName": "Caleb", "lastName": "Nelson", "title":"ninja", "managerId": 2, "city":"can't be found", "cellPhone":"000", "officePhone":"000", "email":"unknown.com"},
             {"id": 4, "firstName": "Isaac", "lastName": "Lam", "title":"jumper", "managerId": 2, "city":"skytown", "cellPhone":"999", "officePhone":"999", "email":"sohigh.com"},
             {"id": 5, "firstName": "Justin", "lastName": "Lu", "title":"inception", "managerId": 2, "city":"ur mind", "cellPhone":"555", "officePhone":"555", "email":"brain.com"},
