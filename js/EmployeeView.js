@@ -33,10 +33,10 @@ var EmployeeView = function(employee) {
             return;
         }
         var contact = navigator.contacts.create();
-        contact.name = {givenName: app.currentEmployee.firstName, familyName:  app.currentEmployee.lastName};
+        contact.name = {givenName: app.employees.firstName, familyName:  app.employees.lastName};
         var phoneNumbers = [];
-        phoneNumbers[0] = new ContactField('work', app.currentEmployee.officePhone, false);
-        phoneNumbers[1] = new ContactField('mobile', app.currentEmployee.cellPhone, true); // preferred number
+        phoneNumbers[0] = new ContactField('work', app.employees.officePhone, false);
+        phoneNumbers[1] = new ContactField('mobile', app.employees.cellPhone, true); // preferred number
         contact.phoneNumbers = phoneNumbers;
         contact.save();
         return false;
