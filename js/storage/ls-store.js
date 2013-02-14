@@ -38,7 +38,8 @@ var LocalStorageStore = function(successCallback, errorCallback) {
             {"id": 3, "firstName": "Caleb", "lastName": "Nelson", "title":"ninja", "managerId": 2, "city":"can't be found", "cellPhone":"212-999-8888", "officePhone":"212-999-8888", "email":"unknown.com"},
             {"id": 4, "firstName": "Isaac", "lastName": "Lam", "title":"jumper", "managerId": 2, "city":"skytown", "cellPhone":"212-999-8888", "officePhone":"212-999-8888", "email":"sohigh.com"},
             {"id": 5, "firstName": "Justin", "lastName": "Lu", "title":"inception", "managerId": 2, "city":"ur mind", "cellPhone":"212-999-8888", "officePhone":"212-999-8888", "email":"brain.com"},
-			{"id": 6, "firstName": "James", "lastName": "Garbagnati", "title":"Human", "managerId": 1, "city":"funkytown", "cellPhone":"212-999-8888", "officePhone":"212-999-8888", "email":"irule.com"}
+			{"id": 6, "firstName": "James", "lastName": "Garbagnati", "title":"Human", "managerId": 1, "city":"funkytown", "cellPhone":"212-999-8888", "officePhone":"212-999-8888", "email":"irule.com"},
+			{"id": 7, "firstName": "Kevin", "lastName": "Malone", "title":"Accountant", "managerId": 6, "city":"Scranton, PA", "cellPhone":"570-777-9696", "officePhone":"570-111-2525", "email":"kmalone@dundermifflin.com"}
         ];
 
     window.localStorage.setItem("employees", JSON.stringify(employees));
